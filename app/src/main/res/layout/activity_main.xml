@@ -33,6 +33,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/layout"
         android:layout_weight="1">
 
         <Button
@@ -46,21 +47,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="어른(15000원)"
-                android:ems="10"
-                android:id="@+id/editText"
-                android:layout_weight="1" />
-
             <TextView
-                android:text="TextView"
+                android:text="어른(15000원)"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2"
                 android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_weight="1" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -68,21 +69,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="청소년(12000원)"
-                android:ems="10"
-                android:id="@+id/editText2"
-                android:layout_weight="1" />
-
             <TextView
-                android:text="TextView"
+                android:text="청소년(12000원)"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_weight="1" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -90,21 +91,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:text="어린이(6000원)"
-                android:ems="10"
-                android:id="@+id/editText3"
-                android:layout_weight="1" />
-
             <TextView
-                android:text="TextView"
+                android:text="어린이(6000원)"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"
                 android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editText3"
+                android:layout_weight="1" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -169,13 +170,11 @@
         </LinearLayout>
 
         <TextView
-            android:text="총 명수:"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView5" />
 
         <TextView
-            android:text="할인금액"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView6" />
@@ -191,7 +190,8 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/layout2">
 
         <Button
             android:text="시간예약"
